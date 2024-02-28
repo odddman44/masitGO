@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+/************************* 
+*******헤더 부분 ********
+*************************/
+/*헤더 바*/
+.navbar {
+    padding: 0; /* 네비게이션 바의 패딩 제거 */
+}
+
+/*아이콘*/
+.navbar-brand-wrapper {
+    width: 100%; /* 너비를 가득 채움 */
+    height: 100%; /* 높이를 가득 채움 */
+    background-color: #003ea8 !important;
+}
+
+.navbar-menu-wrapper{
+	background-color: #003ea8 !important;
+}
+.navbar-brand img {
+    height: 100%; /* 높이 가득 채움 */
+    width: 100%; /* 너비 자동 조정 */
+}
+
+/* 구 글 맵 */
+/* Always set the map height explicitly to define the size of the div
+* element that contains the map. */
+gmp-map {
+	height: 100%;
+}
+
+/* Optional: Makes the sample page fill the window. */
+html,
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+
+/********************* 
+*******사이드 바****** 
+**********************/
+
+
+/*버튼 색깔*/
+.btn-primary{
+	background-color: #003ea8;
+}
+
+/*
+***** 게시판 페이지 *******
+*/
